@@ -1,3 +1,5 @@
+RCtrl & Shift::return
+
 RCtrl & a::
 If GetKeyState("Shift")
 	send {ASC 0165}
@@ -21,7 +23,7 @@ return
 
 RCtrl & l::
 If GetKeyState("Shift")
-	send {ASC 163}
+	send {ASC 0163}
 else
 	send {ASC 0179}
 return
@@ -56,7 +58,7 @@ return
 
 RCtrl & z::
 If GetKeyState("Shift")
-	send {ASC 175}
+	send {ASC 0175}
 else
 	send {ASC 0191}
 return
